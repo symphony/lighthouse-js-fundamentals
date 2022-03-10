@@ -1,6 +1,6 @@
 // FizzBuzz using For
 for (i = 1; i <=100; i++) {
-  if (i % 5 === 0) { // check for 5 first since there should be less cases
+  if (i % 5 === 0) { // check for 5 first since there should be less cases ie. less calculations
     if (i % 3 === 0) { // check for both only if 5 is successful
       console.log("FizzBuzz");
     } else {
