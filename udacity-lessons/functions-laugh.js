@@ -1,3 +1,5 @@
+
+// inline function
 function emotions(myString, myFunc) {
   console.log("I am " + myString + ", " + myFunc(2));
 }
