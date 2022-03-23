@@ -39,7 +39,7 @@ const metric = 'plumpness'
 
 // sort method
 const judgeVegetable = function (v, m) {
-  return v.sort((a, b) => {return b[m] - a[m]})[0].submitter;
+  return v.sort((a, b) => b[m] - a[m])[0]['submitter'];
 }
 
 console.log(judgeVegetable(vegetables, metric));
